@@ -1,4 +1,4 @@
-import Container from "react-bootstrap/Container";
+import Container from "react-bootstrap/cjs/Container.js";
 
 export default function Blurb({title="", otherHalf=null, position="start", align="left", children=<></>, style={}, className=""}) {
     return <>

@@ -2,7 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 import { LiveReload } from "@remix-run/react/dist/components";
 import { Masonry } from "masonic";
 import { Badge, Button, CardGroup } from "react-bootstrap";
-import Container from "react-bootstrap/Container";
+import Container from "react-bootstrap/cjs/Container.js";
 import Blurb from "~/components/Blurb";
 import Hero from "~/components/Hero";
 import NavigationBar from "~/components/NavigationBar";

@@ -1,7 +1,7 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Offcanvas from 'react-bootstrap/Offcanvas';
+import Container from "react-bootstrap/cjs/Container.js";
+import Nav from 'react-bootstrap/cjs/Nav.js';
+import Navbar from 'react-bootstrap/cjs/Navbar.js';
+import Offcanvas from 'react-bootstrap/cjs/Offcanvas.js';
 import '~/custom.css';
 
 export default function NavigationBar() {
