@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+$badge-border-radius: 15px;
+
+$headings-font-family: "Lato";
+$headings-font-weight: 700;
+
+$font-family-base: "Ubuntu";
+//$font-weight-base: 500;
+
+$primary: rgb(31, 150, 255);
+$secondary: rgba(131,152,170,100%);
+
+$btn-padding-x: 24px;
+$btn-padding-y: 6px;
+$btn-border-radius: 100px;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.btn-primary {
+    --bs-btn-color: white;
+    --bs-btn-hover-color: white;
+
+}
+.btn-secondary {
+    --bs-btn-color: white;
+    --bs-btn-hover-color: white;
+}
+
+p {
+    --bs-body-font-size: 1.1rem;
+}
