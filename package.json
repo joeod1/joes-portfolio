@@ -22,12 +22,14 @@
     "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
     "@react-three/rapier": "^1.4.0",
+    "@remix-run/express": "^2.11.2",
     "@remix-run/node": "^2.10.0",
     "@remix-run/react": "^2.10.0",
     "@remix-run/serve": "^2.10.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "dash-ui": "^0.0.4",
+    "express": "^4.19.2",
     "isbot": "^4.1.0",
     "masonic": "^4.0.0",
     "react": "^18.2.0",
@@ -38,7 +40,8 @@
     "react-ui-scrollspy": "^2.3.0",
     "remix-utils": "^7.6.0",
     "sass": "^1.77.6",
-    "three": "^0.166.1"
+    "three": "^0.166.1",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.10.0",
