@@ -4,7 +4,7 @@ import Container from "react-bootstrap/cjs/Container.js";
 import Blurb from "~/components/Blurb";
 import Hero from "~/components/Hero";
 import ProjectCard from "~/components/ProjectCard";
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 import { ClientOnly } from "remix-utils/client-only";
 import ScrollSpy from "react-ui-scrollspy";
 import { Timeline, timelineItemClasses } from "@mui/lab";
