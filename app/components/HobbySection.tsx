@@ -1,8 +1,10 @@
 import { ReactNode } from "react";
 
+
 export interface HobbySectionParams {
     children: ReactNode
 }
+
 
 export default function HobbySection({ children } : HobbySectionParams) {
     return <div className="hobby-section">{children}</div>;
@@ -13,6 +15,7 @@ export interface HobbyParams {
     name : string
     children: ReactNode
 }
+
 
 export function Hobby({ name, children } : HobbyParams) {
     return (
